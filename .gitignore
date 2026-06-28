@@ -1,0 +1,22 @@
+# Build do ROS2
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Pesos dos modelos (arquivos grandes — use Git LFS se quiser versionar)
+*.pt
+*.pth
+*.onnx
+
+# Gazebo
+*.bag
+*.db3
+
+# VS Code
+.vscode/
